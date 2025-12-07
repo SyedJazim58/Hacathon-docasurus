@@ -1,0 +1,3 @@
+# Chapter 5: Launch Files & Parameterization
+
+This chapter explores ROS 2 launch files, which are essential for coordinating the startup of multiple nodes and managing their parameters. We will cover the syntax and structure of launch files, how to define and use parameters, and advanced techniques for creating flexible and reusable launch configurations. Examples will demonstrate how to bring up complex robotic systems with a single command.

@@ -1,0 +1,3 @@
+# Chapter 1: Overview of NVIDIA Isaac SDK & Isaac Sim
+
+This chapter provides a comprehensive overview of the NVIDIA Isaac SDK and Isaac Sim platforms, highlighting their capabilities for developing AI-powered robotics applications. We will explore how these tools facilitate simulation, perception, navigation, and manipulation tasks, enabling the creation of intelligent behaviors for humanoid robots.

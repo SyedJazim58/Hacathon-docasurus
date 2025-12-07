@@ -1,0 +1,3 @@
+# Chapter 4: Capstone: The Autonomous Humanoid
+
+This capstone chapter synthesizes all the concepts and technologies covered throughout the book, culminating in a vision for the autonomous humanoid robot. We will discuss the integration of ROS 2, digital twins, NVIDIA Isaac, and VLA systems to achieve truly intelligent and interactive robotic behavior. Future directions and challenges in humanoid robotics will also be explored.

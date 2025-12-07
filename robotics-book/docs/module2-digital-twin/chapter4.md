@@ -1,0 +1,3 @@
+# Chapter 4: Sensor Simulation
+
+This chapter focuses on simulating various types of sensors within digital twin environments, such as cameras, LiDAR, and IMUs. We will discuss how to configure and integrate simulated sensors to generate realistic data streams, which are crucial for developing and testing robot perception algorithms. Practical examples of sensor simulation in Gazebo and Unity will be provided.

@@ -1,0 +1,3 @@
+# Chapter 1: Why Digital Twins Matter
+
+This chapter explores the concept of digital twins in robotics, highlighting their importance for simulation, testing, and development. We will discuss how digital twins enable rapid prototyping, reduce physical risks, and provide insights into robotic system behavior before real-world deployment. Examples of digital twin applications in humanoid robotics will be provided.

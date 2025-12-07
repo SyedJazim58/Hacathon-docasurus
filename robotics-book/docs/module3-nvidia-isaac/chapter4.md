@@ -1,0 +1,3 @@
+# Chapter 4: Synthetic Data & Photorealistic Simulation
+
+This chapter explores the generation of synthetic data and photorealistic simulation environments using NVIDIA Isaac Sim. We will discuss the benefits of synthetic data for training robust AI models, techniques for creating diverse and realistic datasets, and how photorealistic rendering enhances the development and testing of humanoid robots.

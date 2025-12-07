@@ -1,0 +1,3 @@
+# Chapter 1: Whisper for Voice-to-Action
+
+This chapter introduces OpenAI's Whisper model and its application in Vision-Language-Action (VLA) systems for humanoid robots. We will explore how Whisper enables accurate speech-to-text transcription, forming the initial layer of voice command processing for autonomous robotic actions. The chapter will cover integration strategies and real-world examples.

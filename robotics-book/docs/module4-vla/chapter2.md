@@ -1,0 +1,3 @@
+# Chapter 2: Cognitive Planning with LLMs
+
+This chapter explores how Large Language Models (LLMs) can be integrated into VLA systems to enable cognitive planning and decision-making for humanoid robots. We will discuss techniques for leveraging LLMs to interpret complex commands, generate high-level action plans, and adapt to dynamic environments. Examples will demonstrate how LLMs contribute to the robot's "brain" for autonomous behavior.

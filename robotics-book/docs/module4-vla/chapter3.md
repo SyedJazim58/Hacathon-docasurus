@@ -1,0 +1,3 @@
+# Chapter 3: Multi-Modal Perception
+
+This chapter delves into multi-modal perception, a critical component of VLA systems that enables humanoid robots to process and fuse information from diverse sensors (e.g., cameras, microphones, depth sensors). We will explore techniques for integrating these data streams to achieve a holistic understanding of the robot's environment and interact effectively with humans.

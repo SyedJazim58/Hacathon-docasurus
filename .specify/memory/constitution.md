@@ -1,55 +1,86 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 1.0.0 → 2.0.0
+- List of modified principles: All principles have been redefined based on the new project scope.
+- Added sections: Standards, Technical Standards, Workflow Rules, Constraints, Success Criteria
+- Removed sections: None
+- Templates requiring updates:
+  - .specify/templates/plan-template.md (⚠ pending)
+  - .specify/templates/spec-template.md (⚠ pending)
+  - .specify/templates/tasks-template.md (⚠ pending)
+- Follow-up TODOs: Review and update all templates to align with the new constitution.
+-->
+# AI/Spec-Driven Book Creation using Docusaurus + GitHub Pages Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Spec-First Writing
+All content MUST be generated from explicit, approved specifications. No content generation should occur without a corresponding spec file that defines its structure, scope, and requirements.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Accuracy & Verifiability
+Every technical or factual statement MUST be reliable, verifiable, and sourced from authoritative references. There shall be no unverified claims or speculative information.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Clarity & Accessibility
+Content MUST be written to be clearly understandable to an intermediate-to-advanced learning audience (approximating a Flesch-Kincaid Grade Level of 10-12). All concepts should be explained precisely and without ambiguity.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Reproducibility
+All technical steps, commands, code examples, and repository structures MUST be repeatable from scratch by the target audience. The goal is a frictionless, error-free reader experience.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Transparency & Integrity
+There shall be no "hallucinated" or fabricated citations, commands, or configurations. All generated content must be traceable to real, verifiable sources. Plagiarism is a critical violation.
 
-### [PRINCIPLE_6_NAME]
+### VI. Consistency
+A unified writing style, tone, formatting, and terminology MUST be maintained across the entire book to ensure a cohesive and professional final product.
 
+## Standards
 
-[PRINCIPLE__DESCRIPTION]
+- All chapters MUST originate from specifications (e.g., created via `/sp.page`, `/sp.structure`, `/sp.section`).
+- The tone MUST be clear, instructional, and educational.
+- All code, commands, and configuration examples MUST be tested or logically correct and verifiable.
+- Citations, when used, MUST be real, verifiable, and formatted in APA style.
+- Diagrams, if used, MUST include proper captions and textual explanations.
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Technical Standards
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+- **Book Generator**: Docusaurus 3+
+- **Deployment Target**: GitHub Pages (from the `main` or `gh-pages` branch).
+- **Repository Structure**: The repository MUST include:
+  - `/specs` folder with all specification files.
+  - `/docs` folder for the book's chapter content.
+  - `/static` folder for images and other static assets.
+  - A correctly configured `docusaurus.config.js`.
+- **Build Integrity**: The `npm run build` command MUST execute without errors.
+- **Reference Integrity**: All internal links and references MUST resolve correctly in the final build.
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+## Workflow Rules
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+- Content is to be written ONLY after its corresponding specification has been approved.
+- The AI agent (e.g., Gemini) is to be used for generation, revision, and refinement, guided by the specs.
+- Each chapter MUST follow a consistent template:
+  - Title & Description
+  - Learning Objectives
+  - Main Content Sections
+  - Summary
+  - References (if required)
+- Every contribution or update MUST be checked against this constitution before being merged.
+
+## Constraints
+
+- **Book Size**: The book should be coherent and substantial, with a recommended minimum of 8-10 chapters.
+- **Content Safety**: All examples and content must be safe for beginners and free from sensitive or harmful material.
+- **Automation**: All core processes (build, test, deploy) MUST be fully automatable to ensure CI/CD compatibility.
+
+## Success Criteria
+
+- The book MUST successfully build in Docusaurus with zero errors.
+- The book MUST deploy to GitHub Pages and load correctly in a web browser.
+- All chapters MUST be verifiably generated from specs and exhibit consistent quality and structure.
+- All explanations MUST be clear, accurate, and reproducible.
+- The repository MUST have a clean, readable structure that follows documented best practices.
+- This constitution MUST be adhered to throughout the entire project lifecycle.
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This Constitution is the authoritative guide for this project. Amendments require a formal proposal, review, and justification, documented in the project's history. All contributions and reviews MUST validate compliance with these principles.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 2.0.0 | **Ratified**: 2025-12-07 | **Last Amended**: 2025-12-07
